@@ -34,3 +34,13 @@ setMethod("initialize", "Rasch",
             return(value)
           }
 )
+
+#' @export
+setValidity("Rasch", function(object){
+  if(class(object@name)!="character"){return(@name is not a valid character)}
+  if(class(object@a)!="numeric"){return(@a is not a valid numeric)}
+  if(class(object@yj!="numeric")){return(@yj is not a valid numeric)}
+  if(length(object@name)!=1){return(@name is not a valid length)}
+  if(length(object@a)!=length(object@yj)){return(@a and @yj must have length n)}
+}
+)
