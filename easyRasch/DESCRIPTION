@@ -1,0 +1,8 @@
+Package: easyRasch
+Title: Easy Rasch Package
+Version: 1.0
+Date: 2018-03-19
+Author: Rohan Gupta
+Maintainer: Rohan Gupta <rohangupta@wustl.edu>
+Description: A package for the Rasch model.
+License: GPL(>2)
