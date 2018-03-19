@@ -6,3 +6,11 @@ Author: Rohan Gupta
 Maintainer: Rohan Gupta <rohangupta@wustl.edu>
 Description: A package for the Rasch model.
 License: GPL(>2)
+Collate:
+  'Rasch.R'
+  'probability.R'
+  'likelihood.R'
+  'prior.R'
+  'eap.R'
+  'print.raschObj.R'
+RoxygenNote: 6.0.1
