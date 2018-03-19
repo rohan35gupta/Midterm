@@ -4,7 +4,7 @@
 #' 
 #' @param theta A proposed value of thetaj
 #' 
-#' @return The height of the specified normal curve evaluated at thetaj
+#' @return A single numeric value that is the height of the specified normal curve evaluated at thetaj
 #' @author Rohan Gupta<\email{rohangupta@wustl.edu}>
 #' 
 #' @rdname prior
